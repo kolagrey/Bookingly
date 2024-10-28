@@ -1,0 +1,20 @@
+# Default owners for everything in the repo
+* @project-maintainers
+
+# Frontend related files
+/src/app/ @frontend-team
+/src/components/ @frontend-team
+/src/styles/ @frontend-team
+
+# Backend related files
+/src/lib/api/ @backend-team
+/src/lib/supabase/ @backend-team
+
+# Testing files
+/src/__tests__/ @qa-team
+/e2e/ @qa-team
+/tests/ @qa-team
+
+# CI/CD and infrastructure
+/.github/ @devops-team
+/infra/ @devops-team

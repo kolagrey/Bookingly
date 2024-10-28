@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file
+version: v1.25.0
+ignore:
+  SNYK-JS-NEXT-3146891:
+    - '*':
+        reason: 'No fix available yet, risk assessed as low'
+        expires: 2024-01-01T00:00:00.000Z
+  SNYK-JS-JSONWEBTOKEN-3180022:
+    - '*':
+        reason: 'Requires major version upgrade, planned for next sprint'
+        expires: 2024-01-01T00:00:00.000Z
