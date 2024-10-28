@@ -17,7 +17,8 @@
     "prepare": "husky install",
     "db:migrate": "node scripts/migrate.js",
     "db:seed": "node scripts/seed.js",
-    "db:reset": "node scripts/reset-db.js"
+    "db:reset": "node scripts/reset-db.js",
+    "clean": "rm -rf node_modules && rm -rf package-lock.json"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -63,6 +64,7 @@
     "lucide-react": "^0.292.0",
     "next": "14.0.3",
     "next-themes": "^0.2.1",
+    "next-transpile-modules": "^10.0.1",
     "posthog-js": "^1.93.6",
     "react": "^18.2.0",
     "react-day-picker": "^9.2.1",
